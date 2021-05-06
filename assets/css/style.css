@@ -1,3 +1,11 @@
+:root {
+    --white: #ffffff;
+    --whiteish:#d9dcd6;
+    --sky-blue:#2589bd;
+    --true-blue:#0072bb;
+    --dark-blue:#2a607c;
+
+}
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,14 +13,14 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: var(--whiteish);
 }
 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    background-color: var(--dark-blue);
+    color: var(--white);
 }
 
 .header h1 {
@@ -21,7 +29,7 @@ body {
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: var(--whiteish);
 }
 
 .header div {
@@ -42,7 +50,7 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color: var(--white);
     text-decoration: none;
 }
 
@@ -83,14 +91,14 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: var(--sky-blue);
 }
 
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .benefit-lead h3,
@@ -115,8 +123,8 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: var(--true-blue);
+    color: var(--white);
 }
 
 .search-engine-optimization img,
