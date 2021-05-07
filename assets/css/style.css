@@ -13,6 +13,8 @@
     margin: 0;
 }
 
+/* Header Section */
+
 body {
     background-color: var(--whiteish);
 }
@@ -114,6 +116,7 @@ p {
     overflow: auto;
 }
 
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -133,6 +136,7 @@ p {
     overflow: auto;
 }
 
+/* Benefits Column */
 
 .benefits {
     margin-right: 20px;
@@ -167,6 +171,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* Footer Section */
 
 .footer {
     padding: 30px;
